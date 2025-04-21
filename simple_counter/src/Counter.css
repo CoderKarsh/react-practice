@@ -1,0 +1,52 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttons button {
+  min-width: 8rem;
+  padding-block: 0.5rem;
+  font-size: 1.25rem;
+  background-color: #252728;
+  border: none;
+  border-radius: 0.5rem;
+  outline: 1px solid rgba(42, 0, 229, 0);
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  min-width: 8rem;
+  padding-block: 0.5rem;
+  font-size: 1.25rem;
+  outline: 1px solid rgb(42, 0, 229);
+  filter: drop-shadow(0 0 0.5rem rgb(42, 0, 229));
+  transition: 0.3s;
+}
+
+.buttons .reset:hover {
+  min-width: 8rem;
+  padding-block: 0.5rem;
+  font-size: 1.25rem;
+  outline: 1px solid rgb(229, 0, 0);
+  filter: drop-shadow(0 0 0.5rem rgb(229, 0, 0));
+  transition: 0.3s;
+}
+
+.buttons button:active {
+  min-width: 8rem;
+  padding-block: 0.5rem;
+  font-size: 1.25rem;
+  outline: 1px solid rgb(42, 0, 229);
+  filter: drop-shadow(0 0 2rem rgb(42, 0, 229));
+  transition: 0.3s;
+}
+
+.buttons .reset:active {
+  min-width: 8rem;
+  padding-block: 0.5rem;
+  font-size: 1.25rem;
+  outline: 1px solid rgb(229, 0, 0);
+  filter: drop-shadow(0 0 2rem rgb(229, 0, 0));
+  transition: 0.3s;
+}
